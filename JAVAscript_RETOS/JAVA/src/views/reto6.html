@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+    <title>Document</title>
+</head>
+
+<body class="formu">
+    <form action="" class="caja" id="validacion" novalidate>
+        <h1>Formulario de registro</h1>
+        <label>Tipo de documento</label>
+        <select name="" id="tipodoc">
+            <option value="0">Selecione tipo de docuemento</option>
+            <option value="1">CEDULA DE CIUDADANIA</option>
+            <option value="2">Tarjeta de identidad</option>
+            <option value="3">Cedula</option>
+        </select>
+        <main>
+            <div id="campoDoc">
+                <label>No. documento</label>
+                <input type="number" name="noDoc" id="noDoc" class="">
+                <div class="feedback"></div>
+            </div>
+
+            <div id="campoNombre">
+                <label>Nombre</label>
+                <input type="text" name="nombre" id="nombre" class="">
+                <div class="feedback"></div>
+            </div>
+
+            <div id="campoApellido">
+                <label>Apellido</label>
+                <input type="text" name="apellido" id="apellido" class="">
+                <div class="feedback"></div>
+            </div>
+
+            <div id="campoCorreo">
+                <label>Correo</label>
+                <input type="email" name="email" id="email" class="">
+                <div class="feedback"></div>
+            </div>
+
+            <div id="campoPass">
+                <label>Contraseña</label>
+                <input type="password" name="pass" id="pass" class="">
+                <div class="feedback"></div>
+            </div>
+
+            <div id="campoComprobarpass">
+                <label>Comprobar contraseña</label>
+                <input type="password" name="cpass" id="cpass" class="">
+                <div class="feedback"></div>
+            </div>
+
+            <div id="campoTerminos">
+                <label>Aceptar terminos de uso</label>
+                <input type="checkbox" name="termi" id="termi" class="">
+                <div class="feedback"></div>
+            </div>
+
+
+
+            <input type="submit" name="enviar" value="Enviar" class="boton">
+    </form>
+
+    </main>
+</body>
+<script src="../assets/js/reto6.js"></script>
+
+</html>

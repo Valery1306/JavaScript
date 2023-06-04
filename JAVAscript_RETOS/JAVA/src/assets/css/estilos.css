@@ -1,0 +1,298 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../img/fon.png");
+    background-size: cover;
+}
+
+.eve{
+    background-image: url(../img/fon2.png);
+    background-size: cover;
+}
+
+ul {
+   
+    background-color: black;
+    overflow: hidden;
+    color: beige;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: 300%;
+}
+
+li{
+    display: block;
+    float: left;
+    padding: 20px 60px;
+    font-size: 100%;
+    color: beige;
+}
+
+.letra{
+    font-size: 150%;
+    font-family: fantasy;
+}
+
+.js {
+    font-size: 150%;
+    font-family: fantasy;
+    color: #f5e50b;
+}
+.js a{
+    color: #f5e50b;
+}
+
+.ol{
+    color: #f8b842;
+    font-size: 150%;
+    font-family: fantasy;
+}
+
+div{
+    height: 100%;
+}
+ div a{
+    background-color: #0e0d0d;
+  color:beige;
+  display: block;
+  padding: 12px;
+  width: 220px;
+  height: 100%;
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align:center;
+  
+  
+ }
+
+ div .active{
+    background-color: #f5e50b;
+    color: rgb(32, 30, 30);
+    font-family: fantasy;
+    text-align: center;
+    
+    
+ }
+
+ .texto{
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    margin-top: -400px;
+    padding-left: 350px;
+    display: flex;
+    font-size: 50%;
+
+  }
+  
+  .texto h1{
+    font-size: 50px;
+      color: rgb(22, 22, 21);
+  }
+
+  .tabla{
+    margin: 10px;
+    color:#f5b70b;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    font-size: 40px ;
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+    
+    
+
+  }
+
+th{
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+    padding: -1%;
+}
+
+.letra{
+    color: #0e0d0d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50%;
+    font-style: ;
+}
+
+/* reto 1 estilos */
+.fondo{
+    
+    background-position: center;
+    background-size: cover;
+    background: rgb(245, 189, 149);
+    padding: 40px;
+    max-width: 420px;
+    margin: 40px auto;
+    border-radius: 11%;
+    box-shadow: 0 4px 10px 4px rgb(241, 115, 69);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton{
+    border: none;
+    outline: none;
+    background: #f87924;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+
+}  
+
+h1{
+    color: #f87924;
+    font-family: fantasy;
+}
+
+   
+   
+   
+   
+/* Reto 2 estilos */
+.ho{
+    background-size: cover;
+    background-image: url("../img/sol.png");
+}
+
+.conte{
+    background-position: center;
+    background-size: cover;
+    background: rgb(245, 189, 149);
+    padding: 50px;
+    background-color: #4f96ffbd;
+    max-width: 420px;
+    margin: 350px auto;
+    border-radius: 11%;
+    box-shadow: 0 4px 10px 4px rgb(37, 22, 247);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton2{
+    border: none;
+    outline: none;
+    background: #4188f3;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+
+}  
+
+.re{
+    color: #230cf5;
+    font-family: fantasy;
+}
+
+
+/* Reto 3 estilos */
+
+.lado{
+    background-position: center;
+    background-size: cover;
+    background: rgb(226, 9, 197);
+    padding: 50px;
+    background-color: #e963eebd;
+    max-width: 420px;
+    margin: 350px auto;
+    border-radius: 11%;
+    box-shadow: 0 4px 10px 4px rgb(156, 14, 102);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton3{
+    border: none;
+    outline: none;
+    background: #6b025a;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+  font-family:fantasy
+
+}  
+
+.ño{
+    color: #70074d;
+    font-family: fantasy;
+}
+
+/* Reto 4 estilos */
+
+.cuerpo{
+    background-size: cover;
+    background-image: url("../img/ola.png");
+}
+
+.co{
+    background-position: center;
+    background-size: cover;
+    background: rgb(245, 104, 94);
+    padding: 50px;
+    background-color: #f7696993;
+    max-width: 420px;
+    margin: 350px auto;
+    border-radius: 11%;
+    box-shadow: 0 4px 10px 4px rgb(241, 10, 10);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.boton4{
+    border: none;
+    outline: none;
+    background: #f10303;
+    color: aliceblue;
+    cursor: pointer;
+    transition: .5s;
+
+}  
+
+.ret{
+    color: #ee1010;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+
+/* Reto 6 estilos */
+.formu{
+    background-image: url(../img/fon5.png);
+    background-size: cover;
+    display: center;
+}
+.success{
+    border: 2px solid rgb(0, 255, 0);
+    }
+    
+    .error{
+        border: 2px solid red;
+    }
+    
+    .feedback{
+        max-width: 100%;
+        width: 100%;
+        background-color: rgb(196, 19, 116);
+        padding: 5px;
+        color: black;
+        font-size: 10px;
+        visibility: hidden;
+        opacity: 0;
+        display: center;
+    }
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../assets/css/estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="eve">
+    <header>
+        <nav>
+            <ul>
+                <li class="letra">Retos JavaScript</li>
+                <b><li>Valery Pamplona</li></b>
+                <b><li>Análisis y Desarrollo de Software 2687390 </li></b>
+                <li style="float:right" class="ol">EVENTOS</a></li>
+            </ul>
+        </nav>
+
+        <table class="tabla">
+            <tr>
+           <th>EVENTO <br></th>
+           <th>DESCRIPCION</th>
+           <th>EJEMPLO DE APLICACIÓN</th>
+           </tr>
+
+
+           <tr class="letra">
+            <td><b>click</b></td>
+            <td>
+                El onclickevento ocurre cuando el usuario hace clic en un elemento HTML.
+            </td>
+            <td>
+                <button id="boton">boton</button>
+                <script>
+                   (function botonn () {
+                    var click = function() {
+                        alert("Bienvenido");
+                    };
+                    var boton=document.getElementById("boton");
+                    boton.addEventListener("click", click);
+                    
+                    
+                   }())
+                </script>
+            </td>
+            
+           </tr>
+
+
+           <tr class="letra">
+            <td><b>keypresse</b></td>
+            <td>
+                El onkeypressevento ocurre cuando el usuario presiona una tecla en el teclado.
+            </td>
+            <td>
+                <input type="text" id="escribe">
+                <script>
+                   (function botonn () {
+                    var escribe = function() {
+                        document.getElementById("escribe").style.backgroundColor = "blue";
+                    };
+                    var input=document.getElementById("escribe");
+                    input.addEventListener("keypress", escribe);
+                    
+                    
+                   }())
+                </script>
+            </td>
+            
+           </tr>
+
+
+           
+           <tr class="letra">
+            <td><b>change</b></td>
+            <td>
+                El onchangeevento ocurre cuando se cambia el valor de un elemento HTML.
+            </td>
+            <td>
+                <input type="text" id="cambio">
+                <script>
+                   (function botonn () {
+                    var cambiar = function() {
+                        var letr = document.getElementById("cambio");
+                        letr.value = letr.value.toUpperCase();
+                    };
+                    var cam=document.getElementById("cambio");
+                    cam.addEventListener("change", cambiar);
+                    
+                    
+                   }())
+                </script>
+            </td>
+            
+           </tr>
+
+       
+           <tr class="letra">
+            <td><b>mouseover</b></td>
+            <td>
+                El onmouseoverevento ocurre cuando el puntero del mouse ingresa a un elemento 
+            </td>
+            <td>
+               <button id="mou">color</button>
+               <script>
+                (function mouseOver() {
+                    var mover = function(){
+                    document.getElementById("mou").style.color = "red";
+                 };
+                 var mouse=document.getElementById("mou");
+                    mouse.addEventListener("mouseover", mover);
+
+                
+            }())
+               </script>
+               
+            
+           </tr>
+
+           
+           <tr class="letra">
+            <td><b>focus</b></td>
+            <td>
+                El onfocusevento ocurre cuando un elemento obtiene el foco
+            </td>
+            <td>
+                <input type="text" id="foc">
+                <script>
+                   (function botonn () {
+                    var foco = function() {
+                        document.getElementById("foc").style.backgroundColor = "red";
+                    };
+                    document.getElementById("foc").addEventListener("focus", foco);
+                    
+                    
+                   }())
+                </script>
+            </td>
+            
+           </tr>
+
+            
+           <tr class="letra">
+            <td><b>blur</b></td>
+            <td>
+                El onblurevento ocurre cuando un elemento HTML pierde el foco .
+            </td>
+            <td>
+                <input type="text" id="per">
+                <script>
+                   document.getElementById("per").addEventListener("blur", myFunction);
+                    function myFunction() {
+                     alert("Lo ingresado perdio el foco");
+                    }
+                </script>
+            </td>
+            
+           </tr>
+
+
+
+           <tr class="letra">
+            <td><b>select</b></td>
+            <td>
+                El evento onselect ocurre después de que se haya seleccionado algún texto en un elemento.
+            </td>
+            <td>
+               
+                Selecciona: <input type="text" value="Buenos dias" id="myText">
+
+               <p id="demo"></p>
+
+               <script>
+                 function myFunction() {
+                    document.getElementById("demo").innerHTML = "Tu seleccionaste el texto";
+                 }
+                 document.getElementById("myText").addEventListener("select", myFunction);
+                </script>
+            </td>
+            
+           </tr>
+         
+          
+           <tr class="letra">
+            <td><b>input</b></td>
+            <td>
+                El oninputevento ocurre cuando un elemento recibe entrada 
+            </td>
+            <td>
+               
+                Enter name: <input type="text" id="texto" value="Valery">
+
+               <p id="demo"></p>
+
+               <script>
+                 document.getElementById("texto").addEventListener("input", realizar);
+
+              function realizar() {
+              document.getElementById("demo").innerHTML = "El valor se ha modificado";
+               }
+                </script>
+            </td>
+            
+           </tr>
+
+
+
+           
+           <tr class="letra">
+            <td><b>load</b></td>
+            <td>
+                El evento onload ocurre cuando se ha cargado un objeto.
+            </td>
+            <td>
+                <button id="index"><a href="index.html">inicio</a></button>
+                
+                 <p id="demo"></p>
+
+              <script>
+              document.getElementById("index").addEventListener("load", my);
+
+              function my() {
+              document.getElementById("demo").innerHTML = "el boton a cargado";
+             }
+            </script>
+            </td>
+            
+           </tr>
+
+
+           <tr class="letra">
+            <td><b>keydown</b></td>
+            <td>
+                El onkeydownevento ocurre cuando el usuario presiona una tecla en el teclado.
+            </td>
+            <td>
+                <input type="text" id="escribe">
+                <script>
+                   (function botonn () {
+                    var escribe = function() {
+                        document.getElementById("escribe");
+                        alert("Ingreso letras en el campo de entrada");
+                    };
+                    var input=document.getElementById("escribe");
+                    input.addEventListener("keydown", escribe);
+                    
+                    
+                   }())
+                </script>
+            </td>
+            
+           </tr>
+
+
+
+
+
+        </table>
+    </header>
+</body>
+</html>
+<p></p>
+
+</script>
+
+
+
